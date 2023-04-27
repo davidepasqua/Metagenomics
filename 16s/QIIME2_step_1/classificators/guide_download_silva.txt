@@ -1,3 +1,0 @@
-wget https://data.qiime2.org/2023.5/common/silva-138-99-515-806-nb-classifier.qza
-
-if it doesn't work go https://github.com/qiime2/docs/blob/master/source/data-resources.rst and download https://data.qiime2.org/2023.5/common/silva-138-99-nb-classifier.qza

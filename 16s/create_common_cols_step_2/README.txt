@@ -1,1 +1,0 @@
-those scripts aim to create two common columns for each Bioproject, one is called "variable.phenotype" and deals with healthy controls and positive patients, the other one is called "source" and deals with the source of the samples, in this case it can be "Stool" or "Nasopharingeal"
