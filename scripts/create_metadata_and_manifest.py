@@ -10,7 +10,7 @@ import os
 
 #############  set paths ###################
 
-dir_name = "PRJNA818796""
+dir_name = "PRJNA818796"
 
 path = "/Users/davide/Desktop/metagenomics/16s/" + dir_name
 
