@@ -34,7 +34,7 @@ print(dic)
 df = pd.DataFrame.from_dict(dic)
 
 
-# In[4]:
+# In[4]: open the RunInfo file, we need the Run column
 
 
 runinfo = pd.read_csv(files_dir + "SraRunInfo.csv")
@@ -52,14 +52,14 @@ for num in range(len(run)):
 
 
 
-# In[7]: insert if the "Run" column and Bioproject, important for downstream analysis 
+# In[7]: insert the "Run" column and Bioproject, important for downstream analysis 
 
 
 df.insert(0, "Run", run)
 
 df.insert(0, "Bioproject", bioproject)
 
-# In[8]:
+# In[8]: write the dataframe into a file 
 
 
 df.to_csv(files_dir + "metadata.tsv", sep ="\t", index = False)
